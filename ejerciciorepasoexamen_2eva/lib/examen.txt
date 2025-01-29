@@ -1,0 +1,7 @@
+1. stack con listView
+2. GridView y listView
+3. Con el mediaQuery hacer que cambie el BottomNavigationBar a Drawer o al reves
+4. Semantics (seguramente no pq suena en clase)
+5. Generar DartCoc
+6. Internacionalización
+7. Testing

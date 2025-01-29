@@ -1,3 +1,5 @@
+import 'package:ejerciciorepasoexamen_2eva/Ajustes.dart';
+import 'package:ejerciciorepasoexamen_2eva/conversor.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,12 +11,13 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return MaterialApp(
+      title: "Examen Leire Yagüe",
+      routes: {
+        //rutas para la navegación
+        '/': (context) =>const Medidadas(), //carga la pantalla de inicio --> medidas
+        '/ajustes': (context) =>const AjustesScreen(), //pantalla de ajustes
+      },
     );
   }
 }
